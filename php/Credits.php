@@ -10,7 +10,7 @@ session_start();
   <?php include '../php/Menus.php' ?>
   <section class="main" id="s1">
     <div>
-      <h2>DATOS DEL AUTOR/AUTORES</h2>
+      <h2>DATOS DEL AUTOR</h2>
       <hr><br><br>
       <p><b>Gonzalo Galdós</b></p>
       <p>Especialidad de grado: Ingeniería del Software</p>
