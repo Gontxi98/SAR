@@ -35,11 +35,10 @@ if(!isset($_SESSION['email'])){
             <input type="text" size="60" id="comentario" name="comentario">
             <br>
             <p>
-                <input type="submit" name="enviar" id="enviar" value="Enviar"> 
+                <input type="button" name="enviar" id="enviar" value="Enviar"> 
                 <input type="reset" id='reset' value="Limpiar">
             </p>
             <div id="mensaje"></div>
-            <div id="preguntas"> </div>
         </form>    
     </div>
 
