@@ -7,6 +7,6 @@
     <h1>Proyecto SAR</h1>
     <p> Proyecto realizado por <strong>Gonzalo Galdós</strong>.</p>
     <p> Para acceder a la página web, click-a en el link</p>
-    <a href="http://sw19-20.000webhostapp.com/ProyectoWS19G18/php/Layout.php">Link web </a>
+    <a href="https://sargonzalog.000webhostapp.com/ProyectoSAR/php/Layout.php">Link web </a>
   </body>
 </html>

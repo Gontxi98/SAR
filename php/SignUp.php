@@ -88,7 +88,7 @@
             $email = $_REQUEST['dirCorreo'];
             $nombreApellidos = $_REQUEST['nombreApellidos'];
             $pass = $_REQUEST['pass'];
-            $cryptpass = crypt($pass,"SisWeb");
+            $cryptpass = crypt($pass,"SAR");
             if($_FILES['Imagen']['name'] == ""){               
                 $image = "../images/usuarioAnonimo.jpg";
             }else{

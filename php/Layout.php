@@ -11,7 +11,7 @@ session_start();
   <section class="main" id="s1">
     <div>
 
-      <h2>Bienvenido a la plataforma para añadir comentarios a los laboratorios</h2>
+      <h2>Bienvenido al foro para añadir preguntas/dudas</h2>
       
     </div>
   </section>

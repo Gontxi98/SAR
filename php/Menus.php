@@ -8,7 +8,9 @@
 </header>
 <nav class='main' id='n1' role='navigation'>
     <span><a href='Layout.php'>Inicio</a></span>
-    <span id="gestionPreguntas" style="display:none"><a href='HandlingQuizesAjax.php'>Gestionar preguntas</a>
+    <span id="VerPreguntas" style="display:none"><a href='ShowPreguntas.php'>Ver preguntas</a>
+    </span>
+    <span id="InsertarPregunta" style="display:none"><a href='HandlingComments.php'>Insertar Preguntas</a>
     </span>
     <span id="gestionUsuarios" style="display:none"><a href='HandlingAccounts.php'>Gestionar usuarios</a>
     </span>
@@ -20,6 +22,8 @@
         $('#register').hide();
         $('#login').hide();
         $('#logout').show(); 
+        $('#VerPreguntas').show();
+        $('#InsertarPregunta').show();
         $('#h1').append('<p><?php echo $_SESSION['email'];  ?></p>');
         $("#h1").append("<img width=\"50\" height=\"60\" src=\"data:image/*;base64,<?php echo getImagenDeBD();?>\" alt=\"Imagen\"/>");
 
